@@ -1,4 +1,4 @@
-package jwxt;
+﻿package jwxt;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -208,7 +208,7 @@ public class SignIn{
             
             
             String sql="insert into score values('"+kcmc+"','"+jsxm+"','"+
-            		xf+"','"+xnd+"','"+xq+"','"+kclb+"','"+zpcj+"','"+jd+"','"+jxbpm+"','11365025')";
+            		xf+"','"+xnd+"','"+xq+"','"+kclb+"','"+zpcj+"','"+jd+"','"+jxbpm+"','11******')";
             stm.executeUpdate(sql);
         }
 		//stm.close();
@@ -315,8 +315,8 @@ public class SignIn{
 		SignIn signin=new SignIn();
 		
 		List<NameValuePair> formparams=new ArrayList<NameValuePair>();
-		formparams.add(new BasicNameValuePair("username","11365025"));
-		formparams.add(new BasicNameValuePair("password","zhangmengxin"));
+		formparams.add(new BasicNameValuePair("username","11*****"));
+		formparams.add(new BasicNameValuePair("password","*********"));
 		signin.firstPost(formparams);
 		//signin.firstGet();
 		String year="2012-2013",term="1";

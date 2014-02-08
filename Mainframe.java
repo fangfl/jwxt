@@ -222,7 +222,7 @@ public class Mainframe extends JFrame implements ActionListener,WindowListener{
 	}
 	/*
 	public static void main(String[] args){
-		Mainframe mainframe=new Mainframe("11365025");
+		Mainframe mainframe=new Mainframe("11*****");
 	}
 	*/
 	@Override
